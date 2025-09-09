@@ -16,13 +16,13 @@ LORA_NETWORK_ID = 0x42
 # SPI_DEVICE = 0
 
 # RFM9x pins (adjust for your wiring)
-RFM9X_VIN = 1
-RFM9X_GND = 6
-RFM9X_MISO = 21
-RFM9X_SCK = 23
-RFM9X_MOSI = 19
-RFM9X_CS = 7
-RFM9X_RST = None #Specify by choosing a digital pin
+RFM9X_VIN = "D1"
+RFM9X_GND = "D6"
+RFM9X_MISO = "D21"
+RFM9X_SCK = "D23"
+RFM9X_MOSI = "D19"
+RFM9X_CS = "D7"
+RFM9X_RST = "D16" #Specify by choosing a digital pin
 # RFM9X_RST 
 # RFM9X_G0
 
