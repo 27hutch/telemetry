@@ -3,8 +3,9 @@
 # --- Radio / LoRa settings ---
 LORA_FREQ_MHZ = 900.0        # or 900.0 / 868.0 depending on your module + region
 LORA_TX_POWER = 20           # dBm, check allowed limits for your country
+BEACON_HZ = 2.0
 
-# LORA_NODE_ID_ROVER = 0x01
+LORA_NODE_ID_ROVER = 0x01
 # LORA_NODE_ID_GROUND = 0x02
 
 # Optional: simple "network" ID so you don't pick up random packets

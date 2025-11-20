@@ -1,5 +1,3 @@
-# rover_tx.py
-
 import struct
 import time
 
